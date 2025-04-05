@@ -31,22 +31,59 @@
 //     console.log("iltimos,qaytadan urinip ko`ring!")
 // }
 
-let soat = prompt("Soat necha bo`ldi?")
+// let soat = prompt("Soat necha bo`ldi?")
 
-if (soat >=0 && soat < 6){
-    console.log("Good night!")
+// if (soat >=0 && soat < 6){
+//     console.log("Good night!")
+// }
+
+// else if(soat >= 6 && soat < 12){
+//     console.log("Good morning!")
+// }
+
+// else if(soat >= 12 && soat < 18){
+//     console.log("Good afternoon!")
+// }
+
+// else if(soat >= 18 && soat < 24){
+//     console.log("Good evening!")
+// }
+
+// else{
+//     console.log("Siz noto`gri malumot kiritdingiz!")
+// }
+
+let A = prompt("A harfini baholang!")
+
+if(A == 0){
+    console.log("teng")
 }
 
-else if(soat >= 6 && soat < 12){
-    console.log("Good morning!")
+else if(A > 0){
+    console.log("katta")
 }
 
-else if(soat >= 12 && soat < 18){
-    console.log("Good afternoon!")
+else if(A < 0){
+    console.log("kichik")
 }
 
-else if(soat >= 18 && soat < 24){
-    console.log("Good evening!")
+else{
+    console.log("Siz noto`gri malumot kiritdingiz!")
+}
+
+
+let B = prompt("B harfini baholang!")
+
+if(B == 0){
+    console.log("teng")
+}
+
+else if(B > 0){
+    console.log("katta")
+}
+
+else if(B < 0){
+    console.log("kichik")
 }
 
 else{
